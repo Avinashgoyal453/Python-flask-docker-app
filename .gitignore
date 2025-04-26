@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Docker specific
+*.tar
+*.log
+
+# Ignore Docker related files generated during build
+docker-compose.override.yml
+docker-compose.local.yml
+
+# VSCode or editor specific
+.vscode/
+.idea/
+*.swp
+
+# System Files
+.DS_Store
+Thumbs.db
