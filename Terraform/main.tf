@@ -25,7 +25,7 @@ resource "azurerm_subnet" "exam_subnet" {
 resource "azurerm_container_registry" "acr" {
   name                = "acravinash1238"
   resource_group_name = azurerm_resource_group.exam_rg.name
-  location            = azurerm_resource_group.main.location
+  location            = azurerm_resource_group.exam_rg.location
   sku                 = "Basic"
   admin_enabled       = true
 }
