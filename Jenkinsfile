@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub')
+        DOCKERHUB_CREDENTIALS = credentials('dockerhub-creation')
         IMAGE_NAME = 'avinash323/flask-app'  // Replace with your Docker Hub repo name
     }
 
